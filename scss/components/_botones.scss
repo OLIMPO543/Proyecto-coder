@@ -1,0 +1,17 @@
+.boton{
+    text-decoration: none;
+    background-color: #B08968;
+    color: black;
+    border: 1px solid black ;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+    transition-property: width;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    &:hover{
+        color: black;
+    }
+}
+
