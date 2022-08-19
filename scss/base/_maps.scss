@@ -1,0 +1,12 @@
+
+
+$botonn:(
+    bg-boton: black,
+    border-boton: 2px solid tomato,
+    color-texto: white,
+)
+
+.botonn{
+    background-color: map-get($map: $botonn, $key:bg-boton);
+    border: map-get($map: $botonn, $key: border-boton);
+}

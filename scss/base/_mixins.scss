@@ -1,0 +1,15 @@
+
+
+@mixin flex ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+.contenedor{
+    @include flex(flex, space-around, center);
+}
+
+.contenedor-2{
+    @include flex(flex, space-evenly, center);
+}
